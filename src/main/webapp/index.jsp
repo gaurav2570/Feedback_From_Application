@@ -12,9 +12,12 @@
 	
 	<%@include file="header.jsp"  %>
 	
-    <h1>World Trip Link PVT LTD</h>
+    <h1 class="text-center py-3">World Trip Link PVT.LTD</h>
+	<img src="wtl-removebg-preview.png" 
+	alt="Logo" width="155"" height="70">
+
 	
-	<div class="content_container py-4 d-flex justify-content-center align-item-center">
+	<div class="content_container py-5 d-flex justify-content-center align-item-center">
 		
 		<a href="<%= application.getContextPath() %>/feedback.jsp"class="btn btn-light">Give us Feedback</a>
 		
